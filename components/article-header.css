@@ -1,0 +1,35 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.article {
+	border: 1px solid black;
+	height: 1000px;
+	width: 650px;
+	margin: 0px auto;
+	padding: 15px;
+}
+
+.article-header {
+	display: flex;
+	border-bottom: 1px solid #EEE;
+}
+
+.article-header a {
+	display: inline-block;
+	line-height: 40px;
+}
+
+.article-header h3 {
+	flex-grow: 1;
+	margin-left: 10px;
+	line-height: 31px;
+}
+
+.article-header a img {
+	width: 36px;
+	height: 36px;
+	border-radius: 50%;
+}
