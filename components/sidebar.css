@@ -1,0 +1,81 @@
+img {
+  width: 100%;
+}
+
+.user-info {
+  height: 60px;
+  display: flex;
+}
+
+.user-info .name {
+  display: inline-block;
+  margin-left: 14px;
+  font-size: 18px;
+  line-height: 39px;
+}
+
+.user-info img {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+.total-stories {
+  border: 1px solid #DDD;
+  margin-bottom: 15px;
+  padding: 15px;
+  height: 300px;
+  overflow-y: scroll;
+}
+
+.total-stories .title-header {
+  display: flex;
+  justify-content: space-between;
+  height: 20px;
+  margin-bottom: 10px;
+}
+
+.total-stories .title-header .tin {
+  color: #AAA;
+  font-size: 18px;
+}
+
+.total-stories .title-header .xemtat {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.total-stories .story {
+  display: flex;
+}
+
+.total-stories .story img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+
+.total-stories .story .info {
+  flex-grow: 1;
+  margin-left: 16px;
+}
+
+.suggestions {
+  border: 1px solid #BBB;
+  padding: 15px;
+}
+
+.suggestions .user-suggestion {
+  display: flex;
+}
+
+.suggestions .user-suggestion .info {
+  margin-left: 12px;
+  flex-grow: 1;
+}
+
+.suggestions .user-suggestion img {
+  height: 46px;
+  width: 46px;
+  border-radius: 50%;
+}
