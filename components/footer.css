@@ -1,0 +1,12 @@
+.extends .links {
+	margin-bottom: 10px;
+}
+
+.extends a {
+	color: #BBB;
+	margin-right: 5px;
+}
+
+.extends p {
+	color: #BBB;
+}
