@@ -15,11 +15,19 @@ a {
 
 .header {
   height: 75px;
+  background-color: white;
 }
 
 .container {
   margin: 10px auto 0px;
   width: 1000px;
+  background-color: white;
+}
+
+.container::after {
+  content:'';
+  display: block;
+  clear: both;
 }
 
 .main {

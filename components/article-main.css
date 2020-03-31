@@ -21,6 +21,11 @@ img {
 	float: right;
 }
 
+.user-article a {
+	font-size: 18px;
+	font-weight: bold;
+}
+
 .user-article p {
 	display: inline;
 }

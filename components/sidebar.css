@@ -26,6 +26,7 @@ img {
   padding: 15px;
   height: 300px;
   overflow-y: scroll;
+  margin-bottom: 20px;
 }
 
 .total-stories .title-header {
@@ -60,22 +61,50 @@ img {
   margin-left: 16px;
 }
 
-.suggestions {
+.total-stories .story .info a {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.sugesstions {
   border: 1px solid #BBB;
   padding: 15px;
   margin-bottom: 20px;
+  border: 1px solid #DDD;
 }
 
-.suggestions .user-suggestion {
+.sugesstions .sugesstion-title {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 18px;
+}
+
+.sugesstions .sugesstion-title p {
+  color: #AAA;
+  font-size: 18px;
+}
+
+.sugesstions .sugesstion-title a {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.sugesstions .user-sugesstion {
   display: flex;
 }
 
-.suggestions .user-suggestion .info {
+.sugesstions .user-sugesstion .follow {
+  display: inline-block;
+  color: #00bf9d;
+  font-weight: bold;
+}
+
+.sugesstions .user-sugesstion .info {
   margin-left: 12px;
   flex-grow: 1;
 }
 
-.suggestions .user-suggestion img {
+.sugesstions .user-sugesstion img {
   height: 46px;
   width: 46px;
   border-radius: 50%;
