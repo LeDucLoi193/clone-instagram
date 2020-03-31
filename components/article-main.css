@@ -1,0 +1,49 @@
+img {
+	width: 100%;
+}
+
+.article-main {
+	padding: 10px;
+}
+
+.article-icons {
+	margin-bottom: 8px;
+}
+.article-icons a {
+	color: black;
+}
+
+.comment {
+	margin-left: 15px;
+}
+
+.bookmark {
+	float: right;
+}
+
+.user-article p {
+	display: inline;
+}
+
+.article-comments {
+	display: flex;
+	font-size: 18px;
+}
+
+.article-comments p {
+	flex-grow: 1;
+	margin-left: 10px;
+}
+
+.post-comments {
+	margin-top: 15px;
+	border-top: 1px solid #EEE;
+	display: flex;
+}
+
+.post-comments input {
+	border: none;
+	line-height: 40px;
+	font-size: 18px;
+	flex-grow: 1;
+}
