@@ -5,6 +5,7 @@
 .extends a {
 	color: #BBB;
 	margin-right: 5px;
+	line-height: 24px;
 }
 
 .extends p {

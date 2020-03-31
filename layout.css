@@ -2,6 +2,15 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  overflow-y: scroll;
+}
+
+a {
+  color: black;
 }
 
 .header {
@@ -25,3 +34,4 @@
 .footer {
   margin-left: 70%;
 }
+

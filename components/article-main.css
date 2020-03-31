@@ -30,6 +30,10 @@ img {
 	font-size: 18px;
 }
 
+.article-comments a {
+	font-weight: bold;
+}
+
 .article-comments p {
 	flex-grow: 1;
 	margin-left: 10px;

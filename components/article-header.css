@@ -5,11 +5,12 @@
 }
 
 .article {
-	border: 1px solid black;
+	border: 1px solid #CCC;
 	height: 1000px;
 	width: 650px;
 	margin: 0px auto;
 	padding: 15px;
+	margin-bottom: 20px;
 }
 
 .article-header {
